@@ -1,4 +1,6 @@
 
+
+/* ---- BODY ---- */ 
 body {
     margin: 0;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -15,7 +17,7 @@ main > section, main > footer {
 	min-height: 100vh;
 }
 
-/* Style the nav bar */
+/* ---NAV BAR STYLE--- */
 #nav {
 	justify-content: space-between;
 	align-items: baseline;
@@ -51,7 +53,7 @@ nav ul a:hover {
 	color: pink;
 }
 
-/* Style this */
+/* ---ABOUT THE AUTHOR--- */
 #about-me {
 	background-color: #461c3b;
 	display: flex;
@@ -91,7 +93,7 @@ nav ul a:hover {
 	box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
 }
 
-
+/* ---- INFO STYLE ---- */ 
 #info {
 	background-color: #5856D6;
 	background-image: url(images/info-pic.png);
@@ -115,7 +117,7 @@ nav ul a:hover {
 }
 
 
-/* Create some cards in this section */
+/* ---- 'WHERE TO GO' STYLE ---- */ 
 #part-2 {
 	/* create bg image behind the boxes*/ 
 	background-image: url(images/drone.png);
@@ -137,6 +139,7 @@ nav ul a:hover {
 	color: rgb(255, 255, 255);
 }
 
+/* ---- CARD(S) STYLE ---- */ 
 .card-1 {
 	width: 400px;
 	margin: 1em;
@@ -158,7 +161,7 @@ nav ul a:hover {
 
 
 
-/* Create MORE cards to add in this section */
+/* ---- 'WHAT TO BRING' STYLE ---- */ 
 #part-2-2 {
 	/* create bg image behind the boxes */ 
 	background-image: url(images/part-2-bg.png);
@@ -199,10 +202,7 @@ nav ul a:hover {
 	margin: 1rem;
 }
 
-
-
-
-
+/* ---- 'WHAT TO EAT' STYLE ---- */ 
 #part-3 {
 	background-color: #5856D6;
 	background-image: url(images/foodie.png);
@@ -225,7 +225,7 @@ nav ul a:hover {
 	text-align: center;
 }
 
-/* Style this part4*/
+/* ---- CONCLUSION STYLE ---- */ 
 #part-4 {
 	display: flex;
 	background-image: url(images/hiking.png);
@@ -259,6 +259,7 @@ nav ul a:hover {
 	box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
 }
 
+/* ---- CONTACT STYLE ---- */ 
 #contact {
 	background-color: #FF9500;
 	/* The image used ::*/
@@ -283,6 +284,7 @@ nav ul a:hover {
 	flex-direction: column;
 }
 
+/* ---- 'LABEL' STYLE FOR CONTACT ---- */ 
 label {
 	margin: 1em 0;
 }
@@ -314,7 +316,8 @@ form button {
 	color: #fff;
     border: none;
 }
-    
+
+/* ---- PARALLAX STYLE USED FOR OPENING ---- */ 
 .parallax {
     /* The image used */
     background-image: url(images/img0.png);
