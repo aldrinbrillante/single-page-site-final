@@ -317,7 +317,7 @@ form button {
     border: none;
 }
 
-/* ---- PARALLAX STYLE USED FOR OPENING ---- */ 
+/* ---- PARALLAX STYLE USED FOR OPENING SCROLL ---- */ 
 .parallax {
     /* The image used */
     background-image: url(images/img0.png);
