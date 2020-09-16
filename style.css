@@ -1,0 +1,328 @@
+
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: lighter;
+	background-color: #1d1818;
+    line-height: 1.5;
+}
+
+nav, main > section {
+    overflow: auto;
+}
+
+main > section, main > footer {
+	min-height: 100vh;
+}
+
+/* Style the nav bar */
+#nav {
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 1em;
+	background-color: #084e77;
+	color: #eee;
+	display: flex;
+	position: -webkit-sticky; /* STICKY ELEMENT */
+	position: sticky; /* lets nav bar STICK hehe */ 
+	top: 0; /* stick position 0, meaing it would stick on top of screen */ 
+}
+
+nav h1, ul {
+	margin: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #eee;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul a {
+	padding: 1em;
+	color: tomato;
+}
+
+nav ul a:hover {
+	color: pink;
+}
+
+/* Style this */
+#about-me {
+	background-color: #461c3b;
+	display: flex;
+	color: rgb(5, 5, 5);
+	background-image: url(images/water-2.png);
+	background-size: 70%;
+}
+
+#about-me > div {
+	display: flex;
+	justify-content: center;
+	width: 75%;
+	margin: auto;
+}
+
+#about-me h2, #part-4 p {
+	margin: 0 0 1rem 0;
+}
+
+
+
+#about-me h2 {
+    font-size: 2em;
+}
+
+#about-me > div > div:nth-child(1) {
+	flex: 3;
+	margin: 0 2em 0 0;
+}
+
+#about-me > div > div:nth-child(2) {
+	flex: 2;
+}
+
+#about-me > div img {
+	width: 100%;
+	box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
+}
+
+
+#info {
+	background-color: #5856D6;
+	background-image: url(images/info-pic.png);
+	background-size: 100% 100%; /* This scales the image full on screen */ 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#info > div {
+	background-color:rgba(255, 255, 255, 0.65);
+	padding: 2em;
+	width: 75%;
+	max-width: 700px;
+}
+
+#info  h2 {
+	font-size: 4em;
+	margin: 0 0 1rem 0;
+	text-align: center;
+}
+
+
+/* Create some cards in this section */
+#part-2 {
+	/* create bg image behind the boxes*/ 
+	background-image: url(images/drone.png);
+	background-size: 100% 100%; /* This scales the image full on screen */ 
+}
+
+#part-2 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+#part-2 > h2 {
+	margin: 1em;
+	font-size: 3em;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+.card-1 {
+	width: 400px;
+	margin: 1em;
+	background-color: #eee;
+	box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+}
+
+.card-1 img {
+	width: 100%;
+}
+
+.card-1 h3 {
+	font-size: 2em;
+}
+
+.card-1 h3, .card-1 p {
+	margin: 1rem;
+}
+
+
+
+/* Create MORE cards to add in this section */
+#part-2-2 {
+	/* create bg image behind the boxes */ 
+	background-image: url(images/part-2-bg.png);
+	background-size: 100% 100%; /* This scales the image full on screen */ 
+}
+
+#part-2-2 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+#part-2-2 > h2 {
+	margin: 1em;
+	font-size: 3em;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+.card-2 {
+	width: 400px;
+	margin: 1em;
+	background-color: #eee;
+	box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+}
+
+.card-2 img {
+	width: 100%;
+}
+
+.card-2 h3 {
+	font-size: 2em;
+}
+
+.card-2 h3, .card-2 p {
+	margin: 1rem;
+}
+
+
+
+
+
+#part-3 {
+	background-color: #5856D6;
+	background-image: url(images/foodie.png);
+	background-size: 100% 100%; /* This scales the image full on screen */ 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#part-3 > div {
+	background-color:rgba(255, 255, 255, 0.65);
+	padding: 2em;
+	width: 75%;
+	max-width: 700px;
+}
+
+#part-3  h2 {
+	font-size: 4em;
+	margin: 0 0 1rem 0;
+	text-align: center;
+}
+
+/* Style this part4*/
+#part-4 {
+	display: flex;
+	background-image: url(images/hiking.png);
+	background-size: cover;
+}
+
+#part-4 > div {
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	margin: auto;
+}
+
+
+
+#part-4 h2 {
+	font-size: 2em;
+}
+
+#part-4 > div > div:nth-child(1) {
+	flex: 3;
+	margin: 0 2em 0 0;
+}
+
+#part-4 > div > div:nth-child(2) {
+	flex: 2;
+}
+
+#part-4 > div img {
+	width: 100%;
+	box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
+}
+
+#contact {
+	background-color: #FF9500;
+	/* The image used ::*/
+    background-image: url(images/fly.png);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact > form {
+	display: flex;
+}
+
+#contact > form > div {
+	display: flex;
+	flex-direction: column;
+}
+
+#contact label {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin: 1em 0;
+}
+
+label span {
+	margin: 1em 0;
+}
+
+input, textarea {
+	border: 1px solid #000;
+	padding: 0.5em;
+	margin: 0 2em 0 0;
+	width: 20em;
+	font-size: 1em;
+}
+
+textarea {
+	height: 9em;
+	margin: 0 0 0 0;
+}
+
+form button {
+	width: auto;
+	font-size: 1em;
+	margin: 1em 0;
+	align-self: flex-end;
+	padding: 0.5em 1em;
+	background-color:rgb(0, 0, 0);
+	color: #fff;
+    border: none;
+}
+    
+.parallax {
+    /* The image used */
+    background-image: url(images/img0.png);
+    /* note: keep min-height at 600 so nav bar shows at bottom of screen */
+    min-height: 600px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+}
