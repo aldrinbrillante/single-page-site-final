@@ -25,8 +25,8 @@ main > section, main > footer {
 	background-color: #084e77;
 	color: #eee;
 	display: flex;
-	position: -webkit-sticky; /* STICKY ELEMENT */
-	position: sticky; /* lets nav bar STICK hehe */ 
+	position: -webkit-sticky; /* STICKY ELEMENT (FOR SAFARI) */
+	position: sticky; /* STICKY bar for everything else. lets nav bar STICK hehe */ 
 	top: 0; /* stick position 0, meaing it would stick on top of screen */ 
 }
 
